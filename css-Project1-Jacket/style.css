@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%; 
+     /* background-color: grey; */
+} 
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 0px 30px ;
+}
+
+#nav h4{
+    font-size: 20px ;
+    font-weight: 500;
+}
+
+#nav i{
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 500;
+
+}
+
+#center{
+    /* height: 40%; */
+    width:100%;
+    /*  */
+    padding: 20px 80px ;
+}
+
+#center h1{
+    /* font-size: 80px; */
+    font-size: 4.2vw;
+    font-weight: 500;
+    line-height:4.4vw ;
+}
+
+#center-in{
+    
+    height: 180px ;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#center-in p{
+    font-size: 20px;
+    font-size: 1.1vw;
+    font-weight: 600px;
+    line-height: 1.4vw;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem{
+    padding: 15px 0px;
+    border-top: 2PX SOLID #000; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.elem i{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover i{
+   opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+ }
+
+.elem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px ;
+    font-weight: 500;
+}
+
+#bottom{
+    height: 35%;
+    width: 100%;
+    background-image: url(./woman-black-jacket-walking-through-bridge.jpg);
+    background-size: cover;
+    background-position: 0 27%;
+}
+
+@media (max-width:600px){
+    #nav{
+        height: 60px;
+        gap: 20px;
+        padding: 0px 20px ;
+    }
+
+    #nav h4{
+        font-size: 14px ;
+        font-weight: 500;
+    }
+    
+    #nav i{
+        background-color: #000;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 50%;
+        padding: 7px;
+        font-weight: 500;
+    
+    }
+
+
+    #center{
+        /* height: 40%; */
+        width:100%;
+        /*  */
+        padding: 15px 20px ;
+     
+    }
+    
+    #center h1{
+        /* font-size: 80px; */
+        font-size: 11vw;
+        font-weight: 500;
+        line-height:12.2vw ;
+    }
+    
+    #center-in{
+      
+        height: 180px ;
+        width: 100%;
+        margin-top: 18px;
+        gap: 20PX;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    #center-in p{
+        /* font-size: 20px; */
+        font-size: 4vw;
+        font-weight: 600px;
+        line-height: 4.8vw;
+    }
+
+    #right{
+        width: 100%;
+    }
+    
+    .elem{
+        padding: 8px 0px;
+        border-top: 1.5PX SOLID #000; 
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .elem i{
+        font-size: 18px;
+        font-weight: 500;
+        opacity: 1;
+        color: #303030;
+    }
+    
+    .elem:hover a{
+        text-decoration: underline;
+     }
+    
+    .elem a{
+        color: #303030;
+        text-decoration: none;
+        font-size: 16px ;
+        font-weight: 500;
+    }
+    
+    #bottom{
+        height: 38%;
+        width: 100%;
+        background-image: url(./woman-black-jacket-walking-through-bridge.jpg);
+        background-size: cover;
+        background-position: 0 27%;
+    }
+
+}
